@@ -1,0 +1,20 @@
+Instructions:
+1. Create a new GitHub repository called Lab-3 and then clone it to your local machine.
+
+2. Set up a new Vite project and move all its files (excluding the project folder) to the local repository folder on your machine.
+
+3. Inside the "src" folder, create a new folder named "data" and place the "data.js" file in it to serve as the database of colours.
+
+4. Create a "Components" folder and then create a React component named "ColorBox," which accepts a colour prop. The ColorBox should 
+be clickable, and clicking on it should change its colour. Import the "colors" list, defined as an array of hexadecimal strings 
+representing colours, from "data.js."
+
+5. The coloured div within the ColorBox component should have a width and height of 50px.
+
+6. Create another React component called "ColorBoxesContainer," containing five divs, with each div housing five ColorBox components 
+that receive a colour array as a prop.
+
+7. The end result should be a 5x5 grid of 25 colour boxes that the user can click on to change their colours randomly.
+
+8. Once completed, upload the project to GitHub and share the link with me for assessment.
+
